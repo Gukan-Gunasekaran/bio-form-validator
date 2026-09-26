@@ -7,7 +7,7 @@ function Form() {
 
     try {
       const response = await axios.post(
-        "http://localhost:8080/api/save",
+        "https://bio-form-validator.onrender.com/api/save",
         formdata,
       );
       console.log(response.data);
